@@ -1,8 +1,6 @@
 # Represent-Me
-## Link
+## Deployed Application
 https://represent-me-2020.herokuapp.com/
-## Presentation Link
-https://docs.google.com/presentation/d/1_2j-ECfhv_58wfO--bK-yfpkkUovLFv0gr2jTEg-wRk/edit?usp=sharing
 ## Description
 Represent Me: an all encompassing app where users can find information on their local government. Read up on information about your locally elected officials, contact them when you don’t agree with their policies and get dates for upcoming elections. This app is less about the actual act of voting (although we want you to do that!) and more about ensuring everyone has free and equal access to information to make informed decisions about who they want to be in office.
 ## Table of Contents
@@ -39,8 +37,7 @@ The server should automatically start and take you to localhost:3000. If not, en
 None
 ## Contributors
 Bipin Maharjan, Julie Ritz, Grant Smith & Daniel Like Tanoeihusada.
-## Tests
-None - use console.log if you need to troubleshoot something.
 ## Questions
-Reach out to us if you have any questions!
+* GitHub at [grantnsmith](https://github.com/grantnsmith)
+* Email at [grantnsmith@gmail.com](mailto:grantnsmith@gmail.com)
 ![image](https://user-images.githubusercontent.com/60047114/90193057-02719180-dd79-11ea-817e-aaeda9f519c0.png)
