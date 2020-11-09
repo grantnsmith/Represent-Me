@@ -1,8 +1,8 @@
 # Represent-Me
 ## Deployed Application
-https://represent-me-2020.herokuapp.com/
+https://project-represent-me.herokuapp.com/
 ## Description
-Represent Me: an all encompassing app where users can find information on their local government. Read up on information about your locally elected officials, contact them when you don’t agree with their policies and get dates for upcoming elections. This app is less about the actual act of voting (although we want you to do that!) and more about ensuring everyone has free and equal access to information to make informed decisions about who they want to be in office.
+Represent Me is a web app where users can find information on their local government. Read up on information about your locally elected officials, contact them when you don’t agree with their policies and get dates for upcoming elections. This app is less about the actual act of voting (although we want you to do that!) and more about ensuring everyone has free and equal access to information to make informed decisions about who they want to be in office.
 ## Table of Contents
 * [Installation](#installation)
 
