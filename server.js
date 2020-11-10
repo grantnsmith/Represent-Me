@@ -31,9 +31,13 @@ app.use(passport.session());
 require("./routes/api-routes")(app);
 
 //Connect to the Mongo DB
-mongoose.connect(process.env.MONGO_URI, () => {
-  console.log(`Succcessfully Connected to Db`);
-});
+mongoose.connect(
+  process.env.MONGO_URI ||
+    "mongodb://grantnsmith:LpWAcXx4LEY5jQ5@iad2-c10-1.mongo.objectrocket.com:54383,iad2-c10-0.mongo.objectrocket.com:54383,iad2-c10-2.mongo.objectrocket.com:54383/UserDb?replicaSet=afa24aec04f145afa7cbdcade09eeadb",
+  () => {
+    console.log(`Succcessfully Connected to Db`);
+  }
+);
 
 // mongoose.connect(
 //   process.env.MONGODB_URI || "mongodb://localhost/UserDb",
