@@ -32,7 +32,7 @@ require("./routes/api-routes")(app);
 
 //Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGO_URI ||
+  process.env.ORMONGO_RS_URL ||
     "mongodb://grantnsmith:LpWAcXx4LEY5jQ5@iad2-c10-1.mongo.objectrocket.com:54383,iad2-c10-0.mongo.objectrocket.com:54383,iad2-c10-2.mongo.objectrocket.com:54383/UserDb?replicaSet=afa24aec04f145afa7cbdcade09eeadb",
   () => {
     console.log(`Succcessfully Connected to Db`);
