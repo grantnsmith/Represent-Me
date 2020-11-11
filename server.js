@@ -31,13 +31,13 @@ app.use(passport.session());
 require("./routes/api-routes")(app);
 
 //Connect to the Mongo DB
-mongoose.connect(process.env.ORMONGO_RS_URL, {
+mongoose.connect(process.env.ORMONGO_URL, {
   user: process.env.ORMONGO_USER,
   pass: process.env.ORMONGO_PASS,
 });
 mongoose.connection.on("connected", function () {
   console.log(
-    "Mongoose successfully connected to Db at" + process.env.ORMONGO_RS_URL
+    "Mongoose successfully connected to Db at" + process.env.ORMONGO_URL
   );
 });
 // mongoose.connect(
