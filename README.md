@@ -4,6 +4,8 @@ https://project-represent-me.herokuapp.com/
 ## Description
 Represent Me is a web app where users can find information on their local government. Read up on information about your locally elected officials, contact them when you don’t agree with their policies and get dates for upcoming elections. This app is less about the actual act of voting (although we want you to do that!) and more about ensuring everyone has free and equal access to information to make informed decisions about who they want to be in office.
 ## Table of Contents
+* [Technology Used](#technology)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -15,6 +17,17 @@ Represent Me is a web app where users can find information on their local govern
 * [Tests](#tests)
 
 * [Questions](#questions)
+
+## Technology Used
+- ReactJS
+- Node.js
+- MongoDB
+- Mongoose
+- UI Kit
+- Object Rocket for MongoDB
+- Passport Authentication
+- Google Civic API
+- Deployed on Heroku
 ## Installation
 Pull from this repository. Check dependencies and make sure to run npm i for all necessary- you will need:
 - axios
